@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './common/header/index'
 import Home from './pages/home/index'
 import Login from './pages/login/index'
-import Detail from './pages/detail/index'
+import Detail from './pages/detail/loadable.js';
 import Write from './pages/write';
 import store from './store'
 
