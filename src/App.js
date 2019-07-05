@@ -12,9 +12,9 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div>
-          <Header />
           <BrowserRouter>
             <div>
+              <Header />
               <Route path='/' exact component={Home}></Route>
               <Route path='/login' exact component={Login}></Route>
               <Route path='/detail/:id' exact component={Detail}></Route>
