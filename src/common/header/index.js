@@ -90,16 +90,14 @@ class Header extends Component {
                                 onBlur={handleInputBlur}
                             ></NavSearch>
                         </CSSTransition>
-                        <i className={focused ? 'focused iconfont zoom' : 'iconfont zoom'}>
-                            &#xe614;
-						</i>
+                        <i className={focused ? 'focused iconfont zoom' : 'iconfont zoom'}>&#xe641;</i>
                         {this.getListArea()}
                     </SearchWrapper>
                 </Nav>
                 <Addition>
                     <Link to='/write'>
                         <Button className='writting'>
-                            <i className="iconfont">&#xe615;</i>
+                            <i className="iconfont">&#58883;</i>
                             写文章
 						</Button>
                     </Link>
